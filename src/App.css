@@ -1,33 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://allfont.net/allfont.css?fonts=comic-sans-ms);
+
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  padding: 2em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1{
+  font-weight: 900;
+  font-family: 'Comic Sans MS', arial;
 }
 
-.App-link {
-  color: #61dafb;
+.imageContainer{
+  padding: 2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image{
+  padding: .5em;
+}
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
 }
